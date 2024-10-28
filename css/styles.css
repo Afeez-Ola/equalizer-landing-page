@@ -161,3 +161,31 @@ margin-right: 1rem;
   display: flex;
   flex-direction: column;
 }
+
+.footer_section{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer_section img{
+  width: 70%;
+}
+
+.footer_section a{
+  color: var(--slate);
+  font-weight: bold;
+}
+
+.social_logo{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-block: 1rem 3rem;
+}
+
+.social_logo a{
+  width: 2rem;
+}
