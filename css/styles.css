@@ -67,3 +67,18 @@ button {
  cursor: pointer;
 }
 
+.container{
+  width: 100%;
+}
+
+.intro_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: baseline;
+  gap: 2rem;
+  margin: 2rem auto;
+  width: 90%;
+  background: url("/assets/bg-main-mobile.png");
+  background-size: contain;
+}
