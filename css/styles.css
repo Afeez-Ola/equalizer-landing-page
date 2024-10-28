@@ -302,4 +302,22 @@ a {
     padding: 4rem;
     z-index: 1;
   }
+
+  .footer_section{
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .footer_section >  img{
+  flex: 1;
+  padding: 2rem;
+  }
+
+  .footer_bottom{
+    flex: 2;
+  }
+
+  .footer_note{
+    width: 60%;
+  }
 }
