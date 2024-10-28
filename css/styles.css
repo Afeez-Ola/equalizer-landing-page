@@ -267,7 +267,7 @@ a {
   }
 
   .container {
-    width: 80%;
+    width: 70%;
     margin-inline: auto;
   }
 
@@ -286,6 +286,8 @@ a {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 16rem -1rem;
+    width: 100%;
+    /* width: 70%; */
   }
 
   .mobile_section {
@@ -297,7 +299,7 @@ a {
   }
   .cta_section {
     flex: 0.7;
-    right: 2rem;
+    right: 4rem;
     top: 7rem;
     padding: 4rem;
     z-index: 1;
