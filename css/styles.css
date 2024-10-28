@@ -322,4 +322,8 @@ a {
   .footer_note{
     width: 60%;
   }
+
+  .social_logo{
+    max-width: 10rem;
+  }
 }
