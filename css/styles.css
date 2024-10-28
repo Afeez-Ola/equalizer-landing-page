@@ -66,6 +66,9 @@ button {
 button {
   cursor: pointer;
 }
+a{
+  text-decoration: none;
+}
 
 .container {
   width: 100%;
@@ -130,5 +133,21 @@ margin: 8rem auto 0rem;
 
 .price span{
   font-weight: normal;
+}
+
+.button{
+  padding: 2rem 8rem;
+  background: var(--slate);
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 1.3rem;
+  font-weight: bold;
+}
+.button img{
+margin-right: 1rem;
+}
+
+.ios_button{
+  color: var(--white);
 }
 
