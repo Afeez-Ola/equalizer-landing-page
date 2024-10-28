@@ -216,4 +216,9 @@ a {
     left: 32rem;
     bottom: 18rem;
   }
+
+  .mobile_section img{
+    margin-inline: 5rem;
+    max-width: 20rem;
+  }
 }
