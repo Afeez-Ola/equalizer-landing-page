@@ -100,12 +100,13 @@ background: url("/assets/bg-pattern-2.svg");
 background-size: cover;
 background-repeat: no-repeat;
 background-color: var(--slate);
+background-position: 0rem 5rem;
 margin: 8rem auto 4rem;
 }
 
 
 .mobile_section img{
-  width: 60%;
+  width: 70%;
   margin: auto;
   position: relative;
   bottom: 8rem;
