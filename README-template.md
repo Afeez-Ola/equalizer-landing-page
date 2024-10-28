@@ -12,7 +12,7 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Afeez-Ola/equalizer-landing-page)
-- Live Site URL: [Add live site URL here](https://stats-preview-card-component-main-chi-plum.vercel.app/)
+- Live Site URL: [Add live site URL here](https://equalizer-landing-page-five-woad.vercel.app/)
 
 ## My process
 
