@@ -101,7 +101,7 @@ background-size: cover;
 background-repeat: no-repeat;
 background-color: var(--slate);
 background-position: 0rem 5rem;
-margin: 8rem auto 4rem;
+margin: 8rem auto 0rem;
 }
 
 
@@ -110,4 +110,17 @@ margin: 8rem auto 4rem;
   margin: auto;
   position: relative;
   bottom: 8rem;
+}
+
+.cta_section{
+  background: var(--orange);
+  padding: 2rem;
+}
+
+.cta_section_notes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 2rem;
 }
