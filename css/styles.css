@@ -8,38 +8,37 @@
   --font-family: 'IBM Plex Sans', sans-serif;
 }
 
-
-.text_preset_1{
-  font-size: 88px;
+.text_preset_1 {
+  font-size: 70px;
   line-height: 100%;
   letter-spacing: -1px;
   font-family: var(--font-family);
 }
-.text_preset_2{
+.text_preset_2 {
   font-size: 64px;
   line-height: 100%;
   letter-spacing: 0px;
   font-family: var(--font-family);
 }
-.text_preset_3{
+.text_preset_3 {
   font-size: 40px;
   line-height: 110%;
   letter-spacing: 0px;
   font-family: var(--font-family);
 }
-.text_preset_4{
+.text_preset_4 {
   font-size: 20px;
   line-height: 150%;
   letter-spacing: 0px;
   font-family: var(--font-family);
 }
-.text_preset_5{
+.text_preset_5 {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0px;
   font-family: var(--font-family);
 }
-.text_preset_6{
+.text_preset_6 {
   font-size: 18px;
   line-height: 180%;
   letter-spacing: 0px;
@@ -54,31 +53,43 @@
 }
 
 body {
- background: var(--white);
- -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
-body, input, button {
- font-size: 16px;
- font-family: var(--font-family);
+body,
+input,
+button {
+  font-size: 16px;
+  font-family: var(--font-family);
 }
 
 button {
- cursor: pointer;
+  cursor: pointer;
 }
 
-.container{
+.container {
   width: 100%;
+  background: url('/assets/bg-main-mobile.png');
+  background-size: 150%;
+  background-repeat: no-repeat;
+    background-position: center;
+        background-blend-mode: overlay;
+
 }
 
-.intro_section{
+.intro_section {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: baseline;
   gap: 2rem;
-  margin: 2rem auto;
+  margin: auto;
   width: 90%;
-  background: url("/assets/bg-main-mobile.png");
-  background-size: contain;
+  padding: 6rem 0;
+  margin-bottom: 2rem;
+}
+
+.intro_section h2{
+  width: 70%;
+  /* max-width: 90rem; */
 }
