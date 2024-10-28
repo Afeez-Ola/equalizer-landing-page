@@ -115,6 +115,9 @@ margin: 8rem auto 0rem;
 .cta_section{
   background: var(--orange);
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .cta_section_notes{
@@ -124,3 +127,8 @@ margin: 8rem auto 0rem;
   align-items: baseline;
   gap: 2rem;
 }
+
+.price span{
+  font-weight: normal;
+}
+
