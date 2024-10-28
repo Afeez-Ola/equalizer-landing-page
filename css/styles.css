@@ -66,18 +66,17 @@ button {
 button {
   cursor: pointer;
 }
-a{
+a {
   text-decoration: none;
 }
 
 .container {
   width: 100%;
   margin: auto;
-
 }
 
 .intro_section {
-  background-image: url("../assets/bg-main-mobile.png");
+  background-image: url('../assets/bg-main-mobile.png');
   background-position: left;
   background-repeat: no-repeat;
   background-size: 220%;
@@ -95,28 +94,36 @@ a{
   z-index: -1;
 }
 
-.intro_section img {
+.logo_image {
   width: 70%;
   padding-bottom: 2rem;
+  max-width: 10rem;
 }
 
+.tablet_image {
+  display: none;
+}
+
+.intro_section h2 {
+  max-width: 30rem;
+}
 
 .intro_section p {
-  margin: auto;
+  /* margin: auto; */
+  max-width: 33rem;
 }
 
-.mobile_section{
-display: flex;
-background: url("/assets/bg-pattern-2.svg");
-background-size: cover;
-background-repeat: no-repeat;
-background-color: var(--slate);
-background-position: 0rem 5rem;
-margin: 0rem auto;
+.mobile_section {
+  display: flex;
+  background: url('/assets/bg-pattern-2.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--slate);
+  background-position: 0rem 5rem;
+  margin: 0rem auto;
 }
 
-
-.mobile_section img{
+.mobile_section img {
   width: 70%;
   margin: auto;
   position: relative;
@@ -124,7 +131,7 @@ margin: 0rem auto;
   z-index: inherit;
 }
 
-.cta_section{
+.cta_section {
   background: var(--orange);
   padding: 2rem;
   display: flex;
@@ -132,7 +139,7 @@ margin: 0rem auto;
   gap: 3rem;
 }
 
-.cta_section_notes{
+.cta_section_notes {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -140,54 +147,53 @@ margin: 0rem auto;
   gap: 2rem;
 }
 
-.price span{
+.price span {
   font-weight: normal;
 }
 
-.button{
+.button {
   padding-block: 1rem;
   text-align: center;
   margin-bottom: 1rem;
   border-radius: 1.3rem;
   font-weight: bold;
 }
-.button img{
-margin-right: 1rem;
+.button img {
+  margin-right: 1rem;
 }
 
-.ios_button{
+.ios_button {
   color: var(--white);
   background: var(--slate);
-
 }
 
-.android_button{
+.android_button {
   color: var(--slate);
   background: var(--white);
 }
 
-.cta_buttons{
+.cta_buttons {
   display: flex;
   flex-direction: column;
 }
 
-.footer_section{
+.footer_section {
   padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.footer_section img{
+.footer_section img {
   width: 70%;
 }
 
-.footer_section a{
+.footer_section a {
   color: var(--slate);
   font-weight: bold;
 }
 
-.social_logo{
+.social_logo {
   display: flex;
   width: 50%;
   justify-content: space-between;
@@ -195,6 +201,19 @@ margin-right: 1rem;
   margin-block: 1rem 3rem;
 }
 
-.social_logo a{
+.social_logo a {
   width: 2rem;
+}
+
+@media screen and (min-width: 45rem) {
+  .intro_section {
+    background-image: url('../assets/bg-main-tablet.png');
+  }
+
+  .tablet_image {
+    display: block;
+    position: absolute;
+    left: 34rem;
+    bottom: 18rem;
+  }
 }
