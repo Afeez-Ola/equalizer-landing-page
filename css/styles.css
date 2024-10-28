@@ -187,6 +187,7 @@ a {
 
 .footer_section img {
   width: 70%;
+  max-width: 10rem;
 }
 
 .footer_section a {
@@ -225,12 +226,19 @@ a {
 
   .bottom_section {
     display: flex;
+    background-color: var(--slate);
+    width: 90%;
+    margin-bottom: 15rem;
   }
   .mobile_section {
     flex: 1;
     background-size: 80%;
   }
   .cta_section {
-    flex: 1;
+    flex: 0.7;
+    position: relative;
+    right: 10rem;
+    top: 7rem;
+    border-radius: 1.5rem;
   }
 }
