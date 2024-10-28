@@ -109,8 +109,11 @@ a {
 }
 
 .intro_section p {
-  /* margin: auto; */
   max-width: 33rem;
+}
+
+.bottom_section {
+  margin-inline: auto;
 }
 
 .mobile_section {
@@ -185,7 +188,7 @@ a {
   gap: 1.5rem;
 }
 
-.footer_bottom{
+.footer_bottom {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -215,7 +218,7 @@ a {
 
 @media screen and (min-width: 45rem) {
   .intro_section {
-    background-image: url('../assets/bg-main-tablet.png');
+    background-image: url('../assets/bg-main-desktop.png');
   }
 
   .tablet_image {
@@ -234,6 +237,7 @@ a {
     display: flex;
     background-color: var(--slate);
     width: 90%;
+    margin-inline: auto;
     margin-bottom: 15rem;
   }
   .mobile_section {
@@ -248,11 +252,54 @@ a {
     border-radius: 1.5rem;
   }
 
-  .footer_bottom{
+  .footer_bottom {
     flex-direction: row;
   }
 
-  .social_logo{
+  .social_logo {
     width: 30%;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  .tablet_image {
+    left: 52rem;
+  }
+
+  .container {
+    width: 80%;
+    margin-inline: auto;
+  }
+
+  .intro_section {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+
+  .intro_section h2 {
+    max-width: 40rem;
+  }
+
+  .bottom_section {
+    background-image: url('../assets/bg-pattern-2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 16rem -1rem;
+  }
+
+  .mobile_section {
+    flex: 0.7;
+    background-size: 80%;
+    position: relative;
+    background: none;
+    z-index: 1;
+  }
+  .cta_section {
+    flex: 0.7;
+    right: 2rem;
+    top: 7rem;
+    padding: 4rem;
+    z-index: 1;
   }
 }
