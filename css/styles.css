@@ -136,8 +136,7 @@ margin: 8rem auto 0rem;
 }
 
 .button{
-  padding: 2rem 8rem;
-  background: var(--slate);
+  padding-block: 1rem;
   text-align: center;
   margin-bottom: 1rem;
   border-radius: 1.3rem;
@@ -149,5 +148,16 @@ margin-right: 1rem;
 
 .ios_button{
   color: var(--white);
+  background: var(--slate);
+
 }
 
+.android_button{
+  color: var(--slate);
+  background: var(--white);
+}
+
+.cta_buttons{
+  display: flex;
+  flex-direction: column;
+}
