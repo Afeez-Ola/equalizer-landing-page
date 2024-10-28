@@ -97,14 +97,16 @@ button {
 .mobile_section{
 display: flex;
 background: url("/assets/bg-pattern-2.svg");
-/* background-position: center; */
-/* background-size: cover; */
+background-size: cover;
 background-repeat: no-repeat;
 background-color: var(--slate);
+margin: 8rem auto 4rem;
 }
 
 
 .mobile_section img{
   width: 60%;
   margin: auto;
+  position: relative;
+  bottom: 8rem;
 }
