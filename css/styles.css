@@ -82,11 +82,6 @@ button {
   width: 90%;
   padding: 6rem 0;
   margin-bottom: 2rem;
-  background: url('/assets/bg-main-mobile.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: overlay;
 }
 
 .intro_section img {
@@ -94,12 +89,22 @@ button {
   padding-bottom: 2rem;
 }
 
-.intro_section h2 {
-  /* margin: auto; */
-}
 
 .intro_section p {
-  width: 100%;
-  max-width: 200rem;
+  margin: auto;
+}
+
+.mobile_section{
+display: flex;
+background: url("/assets/bg-pattern-2.svg");
+/* background-position: center; */
+/* background-size: cover; */
+background-repeat: no-repeat;
+background-color: var(--slate);
+}
+
+
+.mobile_section img{
+  width: 60%;
   margin: auto;
 }
