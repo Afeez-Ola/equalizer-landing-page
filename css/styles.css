@@ -218,7 +218,7 @@ a {
 
 @media screen and (min-width: 45rem) {
   .intro_section {
-    background-image: url('../assets/bg-main-desktop.png');
+    background-image: url('../assets/bg-main-tablet.png');
   }
 
   .tablet_image {
@@ -262,6 +262,16 @@ a {
 }
 
 @media screen and (min-width: 60rem) {
+  body {
+    background-image: url('../assets/bg-main-desktop.png');
+  }
+
+  .intro_section h2{
+    font-size: 5rem;
+    width: 80%;
+    max-width: 60rem;
+
+  }
   .tablet_image {
     left: 52rem;
   }
@@ -275,10 +285,6 @@ a {
     width: 100%;
     margin: 0 auto;
     padding-top: 2rem;
-  }
-
-  .intro_section h2 {
-    max-width: 40rem;
   }
 
   .bottom_section {
