@@ -116,6 +116,7 @@ a {
 .mobile_section {
   display: flex;
   background: url('/assets/bg-pattern-2.svg');
+  flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--slate);
@@ -217,8 +218,19 @@ a {
     bottom: 18rem;
   }
 
-  .mobile_section img{
-    margin-inline: 5rem;
+  .mobile_section img {
+    margin-inline: 2rem;
     max-width: 20rem;
+  }
+
+  .bottom_section {
+    display: flex;
+  }
+  .mobile_section {
+    flex: 1;
+    background-size: 80%;
+  }
+  .cta_section {
+    flex: 1;
   }
 }
