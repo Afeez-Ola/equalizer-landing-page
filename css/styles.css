@@ -185,6 +185,12 @@ a {
   gap: 1.5rem;
 }
 
+.footer_bottom{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .footer_section img {
   width: 70%;
   max-width: 10rem;
@@ -240,5 +246,13 @@ a {
     right: 10rem;
     top: 7rem;
     border-radius: 1.5rem;
+  }
+
+  .footer_bottom{
+    flex-direction: row;
+  }
+
+  .social_logo{
+    width: 30%;
   }
 }
