@@ -277,7 +277,7 @@ a {
   }
 
   .container {
-    width: 70%;
+    width: 80%;
     margin-inline: auto;
   }
 
@@ -303,11 +303,15 @@ a {
     z-index: 1;
   }
   .cta_section {
-    flex: 0.4;
+    flex: 0.37;
     right: 4rem;
     top: 7rem;
     padding: 4rem;
     z-index: 1;
+  }
+
+  .cta_section_notes, .price{
+    color: var(--white);
   }
 
   .footer_section{
