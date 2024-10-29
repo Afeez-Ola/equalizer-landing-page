@@ -272,6 +272,11 @@ a {
     max-width: 60rem;
 
   }
+
+  .intro_section p{
+    width: 80%;
+    max-width: 50rem;
+  }
   .tablet_image {
     left: 62rem;
   }
