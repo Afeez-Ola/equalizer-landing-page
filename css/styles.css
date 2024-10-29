@@ -327,6 +327,7 @@ a {
 
   .footer_bottom{
     flex: 2;
+    justify-content: space-around;
   }
 
   .footer_note{
