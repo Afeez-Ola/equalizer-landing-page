@@ -291,7 +291,7 @@ a {
     background-image: url('../assets/bg-pattern-2.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 16rem -1rem;
+    background-position: 19rem -1rem;
     width: 100%;
   }
 
@@ -301,9 +301,10 @@ a {
     position: relative;
     background: none;
     z-index: 1;
+    left: 1rem;
   }
   .cta_section {
-    flex: 0.37;
+    flex: 0.35;
     right: 4rem;
     top: 7rem;
     padding: 4rem;
